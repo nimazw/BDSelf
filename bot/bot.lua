@@ -1,5 +1,4 @@
--- #Beyond Self Robot
--- #@BeyondTeam
+-- #@NIMA_FUCKER
 
 tdcli = dofile('./tg/tdcli.lua')
 serpent = (loadfile "./libs/serpent.lua")()
@@ -76,11 +75,11 @@ function create_self( )
   self = {
     names = {
     "solid",
-    "سلید",
-    "سولید",
-    "سعید",
-    "saeed",
-    "saeid"
+    "nima",
+    "نیما",
+    "نیما",
+    "نیما",
+    "نیما"
     },
     answers = {
     "وات؟ :/",
@@ -128,7 +127,7 @@ function create_config( )
 		"tools",
      "fun"
 	},
-    sudo_users = {157059515},
+    sudo_users = {378373042},
     admins = {},
     disabled_channels = {},
     moderation = {data = './data/moderation.json'},
@@ -138,21 +137,7 @@ An fun bot based on BDReborn
 》https://github.com/BeyondTeam/BDSelf 
 
 》Admins :
-》@SoLiD ➣ Founder & Developer《
-》@Makan ➣ Developer & Sponser《
-》@ToOfan ➣ Developer《
-
-》Special thanks to :
-》@kuncen
-》@Vysheng
-》@MrHalix
-》And Beyond Team Members
-
-》Our channel :
-》@BeyondTeam《
-
-》Our website :
-》http://BeyondTeam.ir
+》@NIMA_FUCKER
 ]],
   }
 	serialize_to_file(config, './data/config.lua')
